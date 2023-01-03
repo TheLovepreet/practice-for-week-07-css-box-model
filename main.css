@@ -10,11 +10,14 @@ html, body {
     vertical-align: bottom;
 
     /* Your code here */
+    height: 30px;
+    width: 30px;
 }
 
 
 h1 {
     /* Your code here */
+    
 }
 
 /* Phase 2 */
@@ -22,12 +25,20 @@ h1 {
 .box {
     /* DO NOT EDIT */
     vertical-align: top;
+    border: 4px dotted black;
+    background-color: gold;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
 
     /* Your code here */
 }
 
 .alternate {
     /* Your code here */
+    box-sizing: border-box;
 }
 
 /* Phase 3 */
@@ -43,6 +54,10 @@ h1 {
     /* DO NOT EDIT */
     background-color: lightgray;
     font-size: larger;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 40px;
 
     /* Your code here */
 }
@@ -50,6 +65,7 @@ h1 {
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
+    display: block;
 
     /* Your code here */
 }
